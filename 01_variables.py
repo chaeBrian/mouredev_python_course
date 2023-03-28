@@ -1,7 +1,7 @@
 # Variables
 
 var_name = "Lionel"
-var_surnmae = "Messi"
+var_surname = "Messi"
 var_nationality = "Argentina"
 
 # Concatenacion de variables en un 'print'
