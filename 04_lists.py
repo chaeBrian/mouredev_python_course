@@ -54,17 +54,17 @@ print(my_other_list)
 my_other_list.remove("Azul")
 print(my_other_list)
 
-my_list.remove(30)
+my_list.remove(30) # .remove elimina el elemente que le proporcionamos, sabien que esta en la lista
 print(my_list)
 
-print(my_list.pop())
+print(my_list.pop()) # .pop elimina pero tambien retorna el elemento eliminado, es util cuando queremos conservar lo eliminado
 print(my_list)
 
 my_pop_element = my_list.pop(2)
 print(my_pop_element)
 print(my_list)
 
-del my_list[2]
+del my_list[2] # del elimina el elemento situado en el indice indicado
 print(my_list)
 
 # Operaciones con listas
