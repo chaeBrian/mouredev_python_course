@@ -12,7 +12,7 @@ my_list = [35, 24, 62, 52, 30, 30, 17]
 print(my_list)
 print(len(my_list))
 
-my_other_list = [35, 1.77, "Brais", "Moure"]
+my_other_list = [10, 35, "Lionel", "Messi"]
 
 print(type(my_list))
 print(type(my_other_list))
@@ -27,12 +27,12 @@ print(my_list.count(30))
 # print(my_other_list[4]) IndexError
 # print(my_other_list[-5]) IndexError
 
-print(my_other_list.index("Brais"))
+print(my_other_list.index("Lionel"))
 
-age, height, name, surname = my_other_list
+age, shirt_number, name, surname = my_other_list
 print(name)
 
-name, height, age, surname = my_other_list[2], my_other_list[1], my_other_list[0], my_other_list[3]
+name, shirt_number, age, surname = my_other_list[2], my_other_list[1], my_other_list[0], my_other_list[3]
 print(age)
 
 # Concatenación
@@ -42,19 +42,19 @@ print(my_list + my_other_list)
 
 # Creación, inserción, actualización y eliminación
 
-my_other_list.append("MoureDev")
+my_other_list.append("Argentina")
 print(my_other_list)
 
-my_other_list.insert(1, "Rojo")
+my_other_list.insert(1, "PSG")
 print(my_other_list)
 
-my_other_list[1] = "Azul"
+my_other_list[1] = "Barcelona"
 print(my_other_list)
 
-my_other_list.remove("Azul")
+my_other_list.remove("Barcelona")
 print(my_other_list)
 
-my_list.remove(30) # .remove elimina el elemente que le proporcionamos, sabien que esta en la lista
+my_list.remove(35) # .remove elimina el elemente que le proporcionamos, sabien que esta en la lista
 print(my_list)
 
 print(my_list.pop()) # .pop elimina pero tambien retorna el elemento eliminado, es util cuando queremos conservar lo eliminado
